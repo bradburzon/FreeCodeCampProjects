@@ -6,16 +6,16 @@ body {
     font-size: 20px;
   }
  }
-.nav{
-
-}
 .nav {
     position: fixed;
     top: 0px;
+    background-color: #d9e3e3;
+    width:100%;
 }
-.container{
+.nav a{
+  padding:0px 20px 0px 20px;
+}
 
-}
 #welcome-section{
   height: 100vw;
 }
