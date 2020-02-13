@@ -1,13 +1,23 @@
 body {
   margin: 0px;
 }
-
+@media (max-width: 600px) {
+  p {
+    font-size: 20px;
+  }
+ }
 .nav{
 
 }
-
+.nav {
+    position: fixed;
+    top: 0px;
+}
 .container{
 
+}
+#welcome-section{
+  height: 100vw;
 }
 
 .project-box{
