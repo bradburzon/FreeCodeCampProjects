@@ -1,0 +1,51 @@
+#container{
+  display: flex;
+  flex-direction: row;
+
+}
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: lightblue;
+  }
+  #container{
+    display: flex;
+    flex-direction: column;
+  }
+  #navbar{
+    width: 100%;
+  }
+  #main-doc{
+
+    width: 70%;
+    height: 70%;
+  }
+}
+.nav{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+.nav a{
+  margin-top: 30px;
+}
+.nav h1{
+  margin-bottom:0px;
+  margin-top:30px;
+}
+#navbar{
+  background: #d9e3e3;
+  float: left;
+  height: 100%;
+  margin-right: 50px;
+  text-align: center;
+  padding:0px 30px 30px 30px;
+}
+
+.nav-link{
+  float: inherit;
+}
+#main-doc{
+  width: 70%;
+  height: 70%;
+  /* float: right; */
+}

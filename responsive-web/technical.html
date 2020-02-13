@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Mobile compatibility-->
+  <title>Programming in Racket | Technical Documentation</title>
+  <link rel="stylesheet" type="text/css" href="../css/custom.css">
+  <link rel="stylesheet" type="text/css" href="../css/technical.css">
+  <link rel="shortcut icon" type="image/png" href="../favicon.ico">
+</head>
+<body class="container">
+  <!--CONTENT BELOW-->
+  <div id="container">
+    <nav id="navbar">
+      <div class="nav">
+        <a href="https://bradburzon.github.io/FreeCodeCampProjects/">Home</a>
+        <a href="https://bradburzon.github.io/FreeCodeCampProjects/responsive-web/">Responsive Web Design</a>
+        <header>
+          <h1> RACKETEERING</h1>
+        </header>
+        <a class="nav-link" href="#Racket">Racket</a>
+        <a class="nav-link" href="#Basics">Basics</a>
+        <a class="nav-link" href="#Variables_&_Expressions">Variables & Expressions</a>
+        <a class="nav-link" href="#Other_Functions">Other Functions</a>
+        <a class="nav-link" href="#Problems">Problems</a>
+        <a class="nav-link" href="#Conclusion">Conclusion</a>
+        <!-- links to be added
+        <a href="#"> </a>
+        <a href="#"> </a>
+        <a href="#"> </a>
+      -->
+    </div>
+  </nav>
+
+  <main id="main-doc">
+    <section id="Racket" class="main-section">
+      <header><h1>Racket</h1>
+      </header>
+      <h3>What is Racket?</h3>
+      <p><a href="" target="_blank"><b>Racket</b></a> is a functional programming language based on Scheme (which is a dialect of Lisp). </p>
+      <p>It is very straight forward and very beginner friendly.</p>
+      <p>Using <a href="">DrRacket</a>, it is very easy to create simple games or application.</p>
+    </section>
+    <hr>
+    <section id="Basics" class="main-section">
+      <header><h1>Basics</h1>
+      </header>
+      <h3>DrRacket IDE</h3>
+      <p>Open DrRacket and this screen will look similar.</p>
+      <img src="../images/dr-racket.jpg" alt="racket ide">
+      <h4>Definition window</h4>
+      <p>The top window highlighted in red is called the definition window.</p>
+      <p>This is where variables, functions, and structures will be stored to run the program</p>
+      <h4>REPL</h4>
+      <p>The bottom window is called REPL. This stands for Read, Evaluate, Print, Loop.</p>
+      <p>It takes reads an input which could be a value or an expression, evaluate it, and loops.</p>
+      <p></p>
+      <h4>Languages</h4>
+      <p><b>Before doing anything, a language needs to be selected on the bottom left.</b></p>
+      <p>For beginners purposes, choose Beginning Student.</p>
+      <p>What this this does is restrict some built in functions to be used.</p>
+      <p>Therefore limiting the user to focus on the basics.</p>
+      <p>Everything covered here will be in beginners.</p>
+      <h4>Syntax</h4>
+      <p>Racket accepts simple and complex expressions.</p>
+      <p>Do note that more complex expressions must start with open parentheses and must close with ending parentheses.</p>
+      <h5>Simple Data</h5>
+      <li>Number</li>
+      <li>String</li>
+      <li>boolean</li>
+      <li>Characters</li>
+      <li>Symbols</li>
+      <h5>Complex Expressions</h5>
+      <li>Function(procedure)</li>
+      <li>Data Structures</li>
+      <li>Conditionals, etc.</li>
+    </section>
+    <hr>
+    <section id="Variables_&_Expressions" class="main-section">
+      <header><h1>Variables & Expressions</h1>
+      </header>
+      <p></p>
+      <code>>(define x 10)</code><br>
+      <code>>x</code><br>
+      <code>10</code><br>
+      <p>or</p>
+      <code>>(define (add-3 x) (+ x 3))</code><br>
+      <code>>(add-3 5)</code><br>
+      <code>8</code><br>
+    </section>
+    <hr>
+    <section id="Other_Functions" class="main-section">
+      <header><h1>Other Functions</h1>
+      </header>
+      <p>Math</p>
+      <code>(+ Number Number)</code><br>
+      <code>(- Number Number)</code><br>
+      <code>(* Number Number)</code><br>
+      <code>(/ Number Number)</code><br>
+      <p></p>
+    </section>
+    <hr>
+    <section id="Problems" class="main-section">
+      <header><h1>Problems</h1>
+      </header>
+      <p>Sample : Define a variable x and set the value to be 5.</p>
+      <p>Problem#1 : Define a variable x, and y to value 3 and 7.</p>
+      <p>Problem#2 : Define a variable xy and set the value to be 3.</p>
+      <br>
+      <p>Solution to Sample problem.</p>
+      <code>(define x 5)</code>
+    </section>
+    <hr>
+    <section id="Conclusion" class="main-section">
+      <header><h1>Conclusion</h1>
+      </header>
+      <p>There will be more to come!</p>
+      <p>Keep learning <a href="https://docs.racket-lang.org/index.html">here</a></p>
+    </section>
+  </main>
+</div>
+<!--CONTENT ABOVE-->
+<footer class="container">
+  <div class="footer">
+    <a href="https://github.com/bradburzon/FreeCodeCampProjects" target="_blank">FreeCodeCampProjects</a>
+  </div>
+</footer>
+</body>
+</html>
